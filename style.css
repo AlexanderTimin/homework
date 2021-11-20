@@ -100,13 +100,17 @@
     margin:0 auto;
 }
 .footer {
-    color: azure;
-    margin:0 auto;
-    padding: 40px;
-    height: 40px;
-    border: none;
-    background: linear-gradient(45deg, #333, #ddd);
-}
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 200px;
+    height: 30px;
+    margin: 30px 0 30px 390px;
+    font-size: 0.8rem;
+  }
+  
 .photo {
     text-align: right;
 }
